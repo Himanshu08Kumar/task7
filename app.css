@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+.ppurple{
+    color: #925add;
+}
+.textgray{
+    color: #919294;
+}
+.midgray{
+    color: #7d7b8f;
+}
+.top{
+    color: #925add;
+    font-size: 20px;
+}
+.btop{
+    color: #31274f;
+    font-size: 36px;
+}
+.lightbg{
+    background-color: #fefbff;
+}
+.borderr{
+    border: 1px solid #925add;
+}
+.bgpurple{
+    background-color: #925add;
+}
+.headcolor{
+    color: #31274f;
+}
+.upd{
+    background-color: #f6f0fd;
+    width: 80%;
+}
+.ml{
+    margin-left: 10%;
+}
+.mr{
+    margin-right: 10%;
+}
+.mt{
+    margin-top: 9%;
+}
+.round{
+    border-radius: 50%;
+}
+.bg1{
+    background-image: url(./icon/bg-hero.svg);
+    background-repeat: no-repeat;
+    background-size: 92%;
+    margin-right: 0%;
+}
+.left1{
+width: 40%;
+}
+.left11{
+    width: 55%;
+}
+.right1{
+    width: 60%
+}
+.right11{
+    width: 55%;
+}
+.working2{
+    width: 320px;
+    height: 340px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   
+    
+}
+.working1{
+    background-image: url(./icon/dot-line.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pricing4{
+    width: 350px;
+    height: 500px;
+}
+
+.skew-divider-top{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    background: -o-linear-gradient(left top, #ffffff 49%, #262B47 50%), -o-linear-gradient(140deg, #ffffff 16px, #000 0);
+    background: linear-gradient(to right bottom, #ffffff 49%, #262B47 50%), linear-gradient(-50deg, #ffffff 16px, #000 0);
+}
+.footer {
+    padding-top: 270px;
+    position: relative;
+    
+    background-color: #262B47;
+}
+@tailwind utilities;
